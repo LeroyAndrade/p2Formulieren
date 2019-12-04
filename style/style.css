@@ -1,0 +1,39 @@
+.lheight
+{
+margin-top: 5px;
+}
+
+input{
+    display:inline-block;
+}
+
+input[type="radio"]
+{
+display: flex;
+    width:10px;
+    height:10px;
+}
+
+section{
+border:2px solid black;
+} 
+
+section .border1{
+display:flex;
+} 
+
+.border1 label
+{
+ display:inline-block;
+padding: 1em;
+background: green;
+text-align: center;    
+    width: 10px;
+}
+
+label
+{ 
+    display:inline-block;
+
+}
+
