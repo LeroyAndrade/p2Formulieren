@@ -3,37 +3,24 @@
 margin-top: 5px;
 }
 
-input{
-    display:inline-block;
-}
-
 input[type="radio"]
 {
-display: flex;
-    width:10px;
-    height:10px;
+display: block;
 }
 
-section{
-border:2px solid black;
-} 
-
-section .border1{
-display:flex;
-} 
-
-.border1 label
-{
- display:inline-block;
-padding: 1em;
-background: green;
-text-align: center;    
-    width: 10px;
-}
-
-label
+.mooi label
 { 
-    display:inline-block;
-
+display:inline-block;
+text-align: center;
+padding:1em;
 }
 
+input[type="text"]
+{
+border-radius: 5px;    
+}
+
+textarea
+{
+border-radius: 5px;     
+}
