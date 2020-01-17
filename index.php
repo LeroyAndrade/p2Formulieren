@@ -52,9 +52,9 @@ session_start();
     <label for="w1008"><input type="radio" name="positief" id="w1008" value="8">8</label>
     <label for="w1009"><input type="radio" name="positief" id="w1009" value="9">9</label>
     <label for="w1000"><input type="radio" name="positief" id="w1000" value="10">10</label>
-
+</fieldset>
     <p>Hoe positief ben je op dit moment over je opleiding</p>
-
+<fieldset>
     <label for="w10011"><input type="radio" name="positief2" id="w10011" value="1">1</label>
     <label for="w10022"><input type="radio" name="positief2" id="w10022" value="2">2</label>
     <label for="w10033"><input type="radio" name="positief2" id="w10033" value="3">3</label>
@@ -64,10 +64,10 @@ session_start();
     <label for="w10077"><input type="radio" name="positief2" id="w10077" value="7">7</label>
     <label for="w10088"><input type="radio" name="positief2" id="w10088" value="8">8</label>
     <label for="w10099"><input type="radio" name="positief2" id="w10099" value="9">9</label>
-    <label for="w10000"><input type="radio" name="positief2" id="w10000" value="10" checked>10</label>
-
+    <label for="w10000"><input type="radio" name="positief2" id="w10000" value="10" >10</label>
+</fieldset>
     <p>Ga je door met deze opleiding</p>
-
+<fieldset>
     <label for="w100111"><input type="radio" name="positief3" id="w100111" value="1">1</label>
     <label for="w100222"><input type="radio" name="positief3" id="w100222" value="2">2</label>
     <label for="w100333"><input type="radio" name="positief3" id="w100333" value="3">3</label>
@@ -77,7 +77,7 @@ session_start();
     <label for="w100777"><input type="radio" name="positief3" id="w100777" value="7">7</label>
     <label for="w100888"><input type="radio" name="positief3" id="w100888" value="8">8</label>
     <label for="w100999"><input type="radio" name="positief3" id="w100999" value="9">9</label>
-    <label for="w100000"><input type="radio" name="positief3" id="w100000" value="10" checked>10</label>
+    <label for="w100000"><input type="radio" name="positief3" id="w100000" value="10" >10</label>
 </fieldset>
 </section>
 <br>
@@ -88,11 +88,11 @@ session_start();
     <legend>Sterke kanten</legend>
     <p>Wat zijn je sterke kanten in programmeren?</p>
 
-    <label for="sterk1"><input type="checkbox" name="sterkeKant1" id="sterk1" value="Coderen in HTML en CSS">Coderen in HTML&#47;CSS</label>
-    <label for="sterk2"><input type="checkbox" name="sterkeKant2" id="sterk2" value="Programmeren in Java">Programmeren in Java</label>
-    <label for="sterk3"><input type="checkbox" name="sterkeKant3" id="sterk3" value="Programmeren in Javascript">Scripting&#58; Programmeren in Javascript</label>
-    <label for="sterk4"><input type="checkbox" name="sterkeKant4" id="sterk4" value="Planning" checked>Planning</label>
-    <label for="sterk5"><input type="checkbox" name="sterkeKant5" id="sterk5" value="Samenwerken">Samenwerken</label>
+    <label for="sterk1"><input type="checkbox" name="sterkeKant4" id="sterk1" value="Coderen in HTML en CSS">Coderen in HTML&#47;CSS</label>
+    <label for="sterk2"><input type="checkbox" name="sterkeKant4" id="sterk2" value="Programmeren in Java">Programmeren in Java</label>
+    <label for="sterk3"><input type="checkbox" name="sterkeKant4" id="sterk3" value="Programmeren in Javascript">Scripting&#58; Programmeren in Javascript</label>
+    <label for="sterk4"><input type="checkbox" name="sterkeKant4" id="sterk4" value="Planning" >Planning</label>
+    <label for="sterk5"><input type="checkbox" name="sterkeKant4" id="sterk5" value="Samenwerken">Samenwerken</label>
   </fieldset>
 </section>
 
@@ -101,11 +101,11 @@ session_start();
     <legend>Nog te ontwikkelen&#63;</legend>
     <p>Aan welke skills moet je nog wat extra aandacht besteden&#63;</p>
 
-    <label for="zelfReflectie1"><input type="checkbox" name="zelfReflectie" id="zelfReflectie1" value="Coderen in HTML en CSS">Coderen in HTML&#47;CSS</label>
-    <label for="zelfReflectie2"><input type="checkbox" name="zelfReflectie" id="zelfReflectie2" value="Programmeren in Java">Programmeren in Java</label>
-    <label for="zelfReflectie3"><input type="checkbox" name="zelfReflectie" id="zelfReflectie3" value="Programmeren in Javascript">Scripting&#58; Programmeren in Javascript</label>
-    <label for="zelfReflectie4"><input type="checkbox" name="zelfReflectie" id="zelfReflectie4" value="Planning" checked>Planning</label>
-    <label for="zelfReflectie5"><input type="checkbox" name="zelfReflectie" id="zelfReflectie5" value="Samenwerken">Samenwerken</label>
+    <label for="zelfReflectie1"><input type="checkbox" name="zelfReflectie5" id="zelfReflectie1" value="Coderen in HTML en CSS">Coderen in HTML&#47;CSS</label>
+    <label for="zelfReflectie2"><input type="checkbox" name="zelfReflectie5" id="zelfReflectie2" value="Programmeren in Java">Programmeren in Java</label>
+    <label for="zelfReflectie3"><input type="checkbox" name="zelfReflectie5" id="zelfReflectie3" value="Programmeren in Javascript">Scripting&#58; Programmeren in Javascript</label>
+    <label for="zelfReflectie4"><input type="checkbox" name="zelfReflectie5" id="zelfReflectie4" value="Planning" >Planning</label>
+    <label for="zelfReflectie5"><input type="checkbox" name="zelfReflectie5" id="zelfReflectie5" value="Samenwerken">Samenwerken</label>
   </fieldset>
 </section>
 
@@ -114,29 +114,29 @@ session_start();
     <legend>Tot nu toe</legend>
     <p>Wat vind je het leukste vak tot nu toe&#63;</p>
 
-    <label for="TotNu1"><input type="checkbox" name="sterkeKant" id="TotNu1" value="PRO1" checked>PRO1</label>
-    <label for="TotNu2"><input type="checkbox" name="sterkeKant" id="TotNu2" value="PRO2" checked>PRO2</label>
-    <label for="TotNu3"><input type="checkbox" name="sterkeKant" id="TotNu3" value="SLB" checked>SLB</label>
-    <label for="TotNu4"><input type="checkbox" name="sterkeKant" id="TotNu4" value="NED" checked>NED</label>
-    <label for="TotNu5"><input type="checkbox" name="sterkeKant" id="TotNu5" value="ENG" checked>ENG</label>
-    <label for="TotNu6"><input type="checkbox" name="sterkeKant" id="TotNu6" value="PROJ" checked>PROJ</label>
-    <label for="TotNu7"><input type="checkbox" name="sterkeKant" id="TotNu7" value="TPR" checked>TPR</label>
-    <label for="TotNu8"><input type="checkbox" name="sterkeKant" id="TotNu8" value="WVO" checked>WVO</label>
-    <label for="TotNu9"><input type="checkbox" name="sterkeKant" id="TotNu9" value="UXD" checked>UXD</label>
-    <label for="TotNu10"><input type="checkbox" name="sterkeKant" id="TotNu10" value="REK" checked>REK</label>
+    <label for="TotNu1"><input type="checkbox" name="sterkeKant6" id="TotNu1" value="PRO1" >PRO1</label>
+    <label for="TotNu2"><input type="checkbox" name="sterkeKant6" id="TotNu2" value="PRO2" >PRO2</label>
+    <label for="TotNu3"><input type="checkbox" name="sterkeKant6" id="TotNu3" value="SLB" >SLB</label>
+    <label for="TotNu4"><input type="checkbox" name="sterkeKant6" id="TotNu4" value="NED" >NED</label>
+    <label for="TotNu5"><input type="checkbox" name="sterkeKant6" id="TotNu5" value="ENG" >ENG</label>
+    <label for="TotNu6"><input type="checkbox" name="sterkeKant6" id="TotNu6" value="PROJ" >PROJ</label>
+    <label for="TotNu7"><input type="checkbox" name="sterkeKant6" id="TotNu7" value="TPR" >TPR</label>
+    <label for="TotNu8"><input type="checkbox" name="sterkeKant6" id="TotNu8" value="WVO" >WVO</label>
+    <label for="TotNu9"><input type="checkbox" name="sterkeKant6" id="TotNu9" value="UXD" >UXD</label>
+    <label for="TotNu10"><input type="checkbox" name="sterkeKant6" id="TotNu10" value="REK" >REK</label>
 
     <p>Met hoeveel zin ga je naar school&#63;</p>
       <section class="mooi">
-      <label for="motivatie1"><input type="radio" name="motivatie" id="motivatie1" value="1">1</label>
-      <label for="motivatie2"><input type="radio" name="motivatie" id="motivatie2" value="2">2</label>
-      <label for="motivatie3"><input type="radio" name="motivatie" id="motivatie3" value="3">3</label>
-      <label for="motivatie4"><input type="radio" name="motivatie" id="motivatie4" value="4">4</label>
-      <label for="motivatie5"><input type="radio" name="motivatie" id="motivatie5" value="5">5</label>
-      <label for="motivatie6"><input type="radio" name="motivatie" id="motivatie6" value="6">6</label>
-      <label for="motivatie7"><input type="radio" name="motivatie" id="motivatie7" value="7">7</label>
-      <label for="motivatie8"><input type="radio" name="motivatie" id="motivatie8" value="8">8</label>
-      <label for="motivatie9"><input type="radio" name="motivatie" id="motivatie9" value="9">9</label>
-      <label for="motivatie10"><input type="radio" name="motivatie" id="motivatie10" value="10" checked>10</label>
+      <label for="motivatie1"><input type="radio" name="motivatie7" id="motivatie1" value="1">1</label>
+      <label for="motivatie2"><input type="radio" name="motivatie7" id="motivatie2" value="2">2</label>
+      <label for="motivatie3"><input type="radio" name="motivatie7" id="motivatie3" value="3">3</label>
+      <label for="motivatie4"><input type="radio" name="motivatie7" id="motivatie4" value="4">4</label>
+      <label for="motivatie5"><input type="radio" name="motivatie7" id="motivatie5" value="5">5</label>
+      <label for="motivatie6"><input type="radio" name="motivatie7" id="motivatie6" value="6">6</label>
+      <label for="motivatie7"><input type="radio" name="motivatie7" id="motivatie7" value="7">7</label>
+      <label for="motivatie8"><input type="radio" name="motivatie7" id="motivatie8" value="8">8</label>
+      <label for="motivatie9"><input type="radio" name="motivatie7" id="motivatie9" value="9">9</label>
+      <label for="motivatie10"><input type="radio" name="motivatie7" id="motivatie10" value="10" >10</label>
       </section>
         </fieldset>
 </section>
