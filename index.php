@@ -20,9 +20,6 @@ session_start();
 <body lang="nl">
 
 
-
-
-
   <h1>Een plan voor jouw ontwikkeling</h1>
   <p>Om een eerste stat lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
 <form action="./pagina.php" method="get">
@@ -91,11 +88,11 @@ session_start();
     <legend>Sterke kanten</legend>
     <p>Wat zijn je sterke kanten in programmeren?</p>
 
-    <label for="sterk1"><input type="checkbox" name="sterkeKant" id="sterk1">Coderen in HTML&#47;CSS</label>
-    <label for="sterk2"><input type="checkbox" name="sterkeKant" id="sterk2">Programmeren in Java</label>
-    <label for="sterk3"><input type="checkbox" name="sterkeKant" id="sterk3">Scripting&#58; Programmeren in Javascript</label>
-    <label for="sterk4"><input type="checkbox" name="sterkeKant" id="sterk4" checked>Planning</label>
-    <label for="sterk5"><input type="checkbox" name="sterkeKant" id="sterk5">Samenwerken</label>
+    <label for="sterk1"><input type="checkbox" name="sterkeKant1" id="sterk1" value="Coderen in HTML en CSS">Coderen in HTML&#47;CSS</label>
+    <label for="sterk2"><input type="checkbox" name="sterkeKant2" id="sterk2" value="Programmeren in Java">Programmeren in Java</label>
+    <label for="sterk3"><input type="checkbox" name="sterkeKant3" id="sterk3" value="Programmeren in Javascript">Scripting&#58; Programmeren in Javascript</label>
+    <label for="sterk4"><input type="checkbox" name="sterkeKant4" id="sterk4" value="Planning" checked>Planning</label>
+    <label for="sterk5"><input type="checkbox" name="sterkeKant5" id="sterk5" value="Samenwerken">Samenwerken</label>
   </fieldset>
 </section>
 
@@ -104,11 +101,11 @@ session_start();
     <legend>Nog te ontwikkelen&#63;</legend>
     <p>Aan welke skills moet je nog wat extra aandacht besteden&#63;</p>
 
-    <label for="zelfReflectie1"><input type="checkbox" name="zelfReflectie" id="zelfReflectie1">Coderen in HTML&#47;CSS</label>
-    <label for="zelfReflectie2"><input type="checkbox" name="zelfReflectie" id="zelfReflectie2">Programmeren in Java</label>
-    <label for="zelfReflectie3"><input type="checkbox" name="zelfReflectie" id="zelfReflectie3">Scripting&#58; Programmeren in Javascript</label>
-    <label for="zelfReflectie4"><input type="checkbox" name="zelfReflectie" id="zelfReflectie4">Planning</label>
-    <label for="zelfReflectie5"><input type="checkbox" name="zelfReflectie" id="zelfReflectie5" checked>Samenwerken</label>
+    <label for="zelfReflectie1"><input type="checkbox" name="zelfReflectie" id="zelfReflectie1" value="Coderen in HTML en CSS">Coderen in HTML&#47;CSS</label>
+    <label for="zelfReflectie2"><input type="checkbox" name="zelfReflectie" id="zelfReflectie2" value="Programmeren in Java">Programmeren in Java</label>
+    <label for="zelfReflectie3"><input type="checkbox" name="zelfReflectie" id="zelfReflectie3" value="Programmeren in Javascript">Scripting&#58; Programmeren in Javascript</label>
+    <label for="zelfReflectie4"><input type="checkbox" name="zelfReflectie" id="zelfReflectie4" value="Planning" checked>Planning</label>
+    <label for="zelfReflectie5"><input type="checkbox" name="zelfReflectie" id="zelfReflectie5" value="Samenwerken">Samenwerken</label>
   </fieldset>
 </section>
 
@@ -117,16 +114,16 @@ session_start();
     <legend>Tot nu toe</legend>
     <p>Wat vind je het leukste vak tot nu toe&#63;</p>
 
-    <label for="TotNu1"><input type="checkbox" name="sterkeKant" id="TotNu1" checked>PRO1</label>
-    <label for="TotNu2"><input type="checkbox" name="sterkeKant" id="TotNu2" checked>PRO2</label>
-    <label for="TotNu3"><input type="checkbox" name="sterkeKant" id="TotNu3" checked>SLB</label>
-    <label for="TotNu4"><input type="checkbox" name="sterkeKant" id="TotNu4" checked>NED</label>
-    <label for="TotNu5"><input type="checkbox" name="sterkeKant" id="TotNu5" checked>ENG</label>
-    <label for="TotNu6"><input type="checkbox" name="sterkeKant" id="TotNu6" checked>PROJ</label>
-    <label for="TotNu7"><input type="checkbox" name="sterkeKant" id="TotNu7" checked>TPR</label>
-    <label for="TotNu8"><input type="checkbox" name="sterkeKant" id="TotNu8" checked>WVO</label>
-    <label for="TotNu9"><input type="checkbox" name="sterkeKant" id="TotNu9" checked>UXD</label>
-    <label for="TotNu10"><input type="checkbox" name="sterkeKant" id="TotNu10" checked>REK</label>
+    <label for="TotNu1"><input type="checkbox" name="sterkeKant" id="TotNu1" value="PRO1" checked>PRO1</label>
+    <label for="TotNu2"><input type="checkbox" name="sterkeKant" id="TotNu2" value="PRO2" checked>PRO2</label>
+    <label for="TotNu3"><input type="checkbox" name="sterkeKant" id="TotNu3" value="SLB" checked>SLB</label>
+    <label for="TotNu4"><input type="checkbox" name="sterkeKant" id="TotNu4" value="NED" checked>NED</label>
+    <label for="TotNu5"><input type="checkbox" name="sterkeKant" id="TotNu5" value="ENG" checked>ENG</label>
+    <label for="TotNu6"><input type="checkbox" name="sterkeKant" id="TotNu6" value="PROJ" checked>PROJ</label>
+    <label for="TotNu7"><input type="checkbox" name="sterkeKant" id="TotNu7" value="TPR" checked>TPR</label>
+    <label for="TotNu8"><input type="checkbox" name="sterkeKant" id="TotNu8" value="WVO" checked>WVO</label>
+    <label for="TotNu9"><input type="checkbox" name="sterkeKant" id="TotNu9" value="UXD" checked>UXD</label>
+    <label for="TotNu10"><input type="checkbox" name="sterkeKant" id="TotNu10" value="REK" checked>REK</label>
 
     <p>Met hoeveel zin ga je naar school&#63;</p>
       <section class="mooi">
